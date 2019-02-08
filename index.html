@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>learn.JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stayle.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <h1>Turn: <span id="turn">X</span></h1>
+      </div>
+
+      <!-- ===================== -->
+
+
+      <div class="X turn">
+       <h1>X<br><span id="xcount">0</span></h1>
+      </div>
+
+
+      <!-- =========== -->
+
+
+      <div class="O turn">
+       <h1>O<br><span id="ycount">0</span></h1>
+      </div>
+
+
+      <!-- ========================== -->
+      <div class="wrapper">
+        <div class="square" id="A1" onclick="insert(this.id)"></div>
+        <div class="square" id="A2" onclick="insert(this.id)"></div>
+        <div class="square" id="A3" onclick="insert(this.id)"></div>
+        <div class="square" id="A4" onclick="insert(this.id)"></div>
+        <div class="square" id="A5" onclick="insert(this.id)"></div>
+        <div class="square" id="A6" onclick="insert(this.id)"></div>
+        <div class="square" id="A7" onclick="insert(this.id)"></div>
+        <div class="square" id="A8" onclick="insert(this.id)"></div>
+        <div class="square" id="A9" onclick="insert(this.id)"></div>
+      </div>
+       <div class="boton">
+        <button id="button" onclick="reset()">Play again</button>
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
