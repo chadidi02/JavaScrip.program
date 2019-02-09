@@ -7,40 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   </head>
+
   <body>
-    <header>
-      <div class="top">
-        <h1>Turn: <span id="turn">X</span></h1>
-      </div>
+    <article class="contener">
+      <section>
+        <div class="X turn">
+          <h1>player_1</h1>
+        </div>
 
-      <!-- ===================== -->
-
-      <div class="X turn"><h1>X</h1></div>
-      <div class="xcount-i"><span id="xcount">0</span></div>
-
+        <div class="xcount-i">
+          <span id="xcount">0</span>
+        </div>
+      </section>
       <!-- ========================== -->
-      <div class="wrapper">
-        <div class="square" id="A1" onclick="insert(this.id)"></div>
-        <div class="square" id="A2" onclick="insert(this.id)"></div>
-        <div class="square" id="A3" onclick="insert(this.id)"></div>
-        <div class="square" id="A4" onclick="insert(this.id)"></div>
-        <div class="square" id="A5" onclick="insert(this.id)"></div>
-        <div class="square" id="A6" onclick="insert(this.id)"></div>
-        <div class="square" id="A7" onclick="insert(this.id)"></div>
-        <div class="square" id="A8" onclick="insert(this.id)"></div>
-        <div class="square" id="A9" onclick="insert(this.id)"></div>
-      </div>
-       <div class="boton">
-        <button id="button" onclick="reset()">Play again</button>
-      </div>
-    </header>
+      <section>
+        <div class="top">
+          <h1>Turn: <span id="turn">X</span></h1>
+        </div>
 
-    <!-- =========== -->
+        <div class="wrapper">
+          <div class="square" id="A1" onclick="insert(this.id)"></div>
+          <div class="square" id="A2" onclick="insert(this.id)"></div>
+          <div class="square" id="A3" onclick="insert(this.id)"></div>
+          <div class="square" id="A4" onclick="insert(this.id)"></div>
+          <div class="square" id="A5" onclick="insert(this.id)"></div>
+          <div class="square" id="A6" onclick="insert(this.id)"></div>
+          <div class="square" id="A7" onclick="insert(this.id)"></div>
+          <div class="square" id="A8" onclick="insert(this.id)"></div>
+          <div class="square" id="A9" onclick="insert(this.id)"></div>
+          <div class="button-wrapper">
+            <button class="button" onclick="reset()">Play again</button>
+          </div>
+        </div>
+      </section>
 
-    <div class="O turn"><h1>O</h1></div>
-    <div class="ycount-i">
-      <span id="ycount">0</span>
-    </div>
+      <section>
+        <div class="O turn">
+          <h1>player_2</h1>
+        </div>
+
+        <div class="ycount-i">
+          <span id="ycount">0</span>
+        </div>
+      </section>
+    </article>
     <script src="script.js"></script>
   </body>
 </html>

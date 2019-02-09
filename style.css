@@ -1,25 +1,31 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
 .contener {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 article {
-  background: #3494E6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  width: 100%;
+  background: #ed4264; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffedbc,
+    #ed4264
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffedbc,
+    #ed4264
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
 }
-
- .wrapper {
+.wrapper {
   width: 300px;
   height: 300px;
-  margin: 175px auto;
- text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 115px;
 }
 .square {
   width: 90px;
@@ -33,48 +39,47 @@ background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, F
   font-size: 78px;
   font-family: sans-serif;
 }
- .top {
-  text-shadow: 5px -2px 14px #710606f7;
-  font-size: 30px;
-  color: #fff;
+.top {
+  text-shadow: 5px 2px 14px #0000009c;
+  font-size: 35px;
+  color: #ee4566;
   text-align: center;
 }
 
 .X.turn {
-  float: left;
-  font-size: 70px;
-  margin-left: 95px;
+  font-size: 35px;
+  margin-left: 80px;
   color: #727272;
   text-shadow: 2px 2px 5px #36469e;
   font-family: sans-serif;
+  margin-top: 170px;
 }
 
 .O.turn {
-  float: right;
-  margin-right: 70px;
-  font-size: 70px;
+  font-size: 35px;
+  margin-left: 80px;
   color: #727272;
   text-shadow: 2px 2px 5px #36469e;
   font-family: sans-serif;
+  margin-top: 170px;
 }
-
-.ycount-i span#xcount {
-  margin-top: 300px;
-  position: absolute;
-  left: 50pc;
-  font-size: 100px;
+span#xcount {
+  float: left;
+  font-size: 75px;
   color: aqua;
+  margin-left: 137px;
+  margin-top: 90px;
 }
 
-.xcount-i span#ycount {
-  position: absolute;
-  left: 145px;
-  margin-top: 300px;
-  font-size: 100px;
+span#ycount {
+  float: left;
+  font-size: 75px;
   color: aqua;
+  margin-left: 137px;
+  margin-top: 90px;
 }
 
-#button-wrapper {
+.button-wrapper {
   text-align: center;
 }
 
@@ -87,8 +92,8 @@ background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, F
   font-size: 20px;
   outline: none;
   cursor: pointer;
+  margin-top: 45px;
 }
 .button:hover {
   background-color: #14bdac;
 }
- 
