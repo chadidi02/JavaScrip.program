@@ -1,2 +1,2 @@
-# JavaScrip.program
-Learn Programming JavaScript
+# X-and-O
+X-and-O JavaScript
